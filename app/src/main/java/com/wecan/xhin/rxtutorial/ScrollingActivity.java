@@ -19,6 +19,7 @@ public class ScrollingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_scrolling);
         setSupportActionBar(binding.toolbar);
+        
 
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
